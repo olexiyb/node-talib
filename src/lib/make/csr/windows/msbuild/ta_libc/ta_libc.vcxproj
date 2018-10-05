@@ -170,7 +170,7 @@
     <NMakeOutput>$(OutDir)ta_libc_$(Configuration).lib</NMakeOutput>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='cdd|Win32'">
-    <OutDir>..\..\..\..\..\lib</OutDir>
+    <OutDir>..\..\..\..\..\lib\</OutDir>
     <IntDir>.\..\..\..\..\..\temp\$(Configuration)\$(ProjectName)\</IntDir>
     <NMakeBuildCommandLine>lib /OUT:$(OutDir)ta_libc_$(Configuration).lib $(OutDir)ta_abstract_$(Configuration).lib $(OutDir)ta_common_$(Configuration).lib $(OutDir)ta_func_$(Configuration).lib</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>lib /OUT:$(OutDir)ta_libc_$(Configuration).lib $(OutDir)ta_abstract_$(Configuration).lib $(OutDir)ta_common_$(Configuration).lib $(OutDir)ta_func_$(Configuration).lib</NMakeReBuildCommandLine>
